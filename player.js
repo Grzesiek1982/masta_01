@@ -150,8 +150,8 @@
 //   console.log(player.position);
 // }
 
-// const list = document.querySelector(".play");
-// list.innerHTML = "Lorem IPusm";
+const list = document.querySelector(".play");
+list.innerHTML = "Lorem IPusm";
 
-const title = document.querySelector(".article .title");
-title.innerHTML = 'New and <span class="accent">improved</span> title';
+// const title = document.querySelector(".article .title");
+// title.innerHTML = 'New and <span class="accent">improved</span> title';
