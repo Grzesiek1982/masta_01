@@ -154,8 +154,7 @@
 // list.innerHTML = "Lorem IPusm";
 
 const article = document.querySelector(".article");
-const htmlString = `<p>Nullam quis ante. Vestibulum dapibus nunc ac augue. In consectetuer turpis ut velit.</p>
-   `;
+const htmlString = "Lorem Ipsum";
 
 // Replace += with = operator. See the difference?
 // Article title is lost because we overwrite element content.
