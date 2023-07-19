@@ -155,9 +155,7 @@ const names = players.map((player) => player.name);
 const article = document.querySelector(".article");
 const htmlString = `
 <ul>
-  <li>item a</li>
-  <li>item b</li>
-  <li>item name:  ${names}</li>
+  <li>zawodnik:  ${names}</li>
 </ul>
 `;
 
