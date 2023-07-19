@@ -150,12 +150,14 @@ for (const player of players) {
   console.log(player.position);
 }
 
+const lewy = console.log(player.name);
+
 const article = document.querySelector(".article");
 const htmlString = `
 <ul>
   <li>item a</li>
   <li>item b</li>
-  <li>item ${players}</li>
+  <li>item ${lewy}</li>
 </ul>
 `;
 
