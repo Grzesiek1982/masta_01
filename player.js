@@ -154,8 +154,12 @@
 // list.innerHTML = "Lorem IPusm";
 
 const article = document.querySelector(".article");
-const htmlString = `aaa`;
+const htmlString = `
+<ul>
+  <li>item a</li>
+  <li>item b</li>
+  <li>item c</li>
+</ul>
+`;
 
-// Replace += with = operator. See the difference?
-// Article title is lost because we overwrite element content.
 article.innerHTML += htmlString;
