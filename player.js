@@ -154,4 +154,4 @@
 // list.innerHTML = "Lorem IPusm";
 
 const title = document.querySelector(".article .title");
-title.innerHTML = "nowy tytuł";
+title.innerHTML = "nowy tytuł best";
