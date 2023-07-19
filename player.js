@@ -153,5 +153,5 @@
 // const list = document.querySelector(".play");
 // list.innerHTML = "Lorem IPusm";
 
-const title = document.querySelector(".title");
-title.innerHTML = "nowy tytuł best";
+const title = document.querySelector(".article .title");
+title.innerHTML = "Lorem ipsum";
