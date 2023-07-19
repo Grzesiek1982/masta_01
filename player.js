@@ -115,7 +115,7 @@ const players = [
   },
 
   {
-    name: "Jaub",
+    name: "Jakub",
     lastName: "Błaszczykowski",
     position: "pomocnik",
     age: {
@@ -138,26 +138,26 @@ const players = [
   },
 ];
 
-for (const player of players) {
-  console.log(player.name);
-}
+// for (const player of players) {
+//   console.log(player.name);
+// }
 
-for (const player of players) {
-  console.log(player.lastName);
-}
+// for (const player of players) {
+//   console.log(player.lastName);
+// }
 
-for (const player of players) {
-  console.log(player.position);
-}
+// for (const player of players) {
+//   console.log(player.position);
+// }
 
-const lewy = console.log(player.name);
+const names = players.map((player) => player.name);
 
 const article = document.querySelector(".article");
 const htmlString = `
 <ul>
   <li>item a</li>
   <li>item b</li>
-  <li>item ${lewy}</li>
+  <li>item name:  ${names}</li>
 </ul>
 `;
 
